@@ -49,6 +49,7 @@ namespace BitMiracle.LibJpeg
 			m_quality = parameters.m_quality;
 			m_smoothingFactor = parameters.m_smoothingFactor;
 			m_simpleProgressive = parameters.m_simpleProgressive;
+         OptimizeCoding = parameters.OptimizeCoding;
 			
 			YHSamp = parameters.YHSamp;
 			YVSamp = parameters.YVSamp;
@@ -127,6 +128,11 @@ namespace BitMiracle.LibJpeg
 			get { return m_simpleProgressive; }
 			set { m_simpleProgressive = value; }
 		}
+
+      /// <summary>
+      /// For optimize_coding parameter. Defaults to false.
+      /// </summary>
+      public bool OptimizeCoding { get; set; }
 
 		/// <summary>
 		/// Luma (Luminance, Brightness, Y) horizontal chroma subsampling

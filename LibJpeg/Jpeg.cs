@@ -250,6 +250,7 @@ namespace BitMiracle.LibJpeg
 
 			m_compressor.Smoothing_factor = parameters.SmoothingFactor;
 			m_compressor.jpeg_set_quality(parameters.Quality, true);
+         m_compressor.Optimize_coding = parameters.OptimizeCoding;
 
 			if (parameters.SimpleProgressive)
 				m_compressor.jpeg_simple_progression();

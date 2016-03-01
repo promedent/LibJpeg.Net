@@ -20,6 +20,6 @@ using System.Runtime.InteropServices;
 // 
 //      Build Number gets placed in strings below using Mercurial version info
 
-[assembly: AssemblyVersion("1.3.311.0")]
-[assembly: AssemblyFileVersion("1.3.311.0")]
+[assembly: AssemblyVersion("1.3.311.1")]
+[assembly: AssemblyFileVersion("1.3.311.1")]
 
